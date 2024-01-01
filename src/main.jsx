@@ -1,3 +1,4 @@
+// /src/main.jsx
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        index: true,
+        path: 'about',
         element: <About />,
       },
       {

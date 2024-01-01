@@ -1,0 +1,123 @@
+/* /src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+
+body {
+    background: url('./src/assets/images/iStock-1392553233.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    image-rendering: optimizeQuality;
+    margin: 300px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    font-family: 'PT Serif Caption', sans-serif;
+    font-size: 28px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    background: linear-gradient(180deg, rgba(33, 37, 41, 1) 0%, rgba(52, 58, 64, 1) 35%, rgba(73, 80, 87, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5vh;
+    font-size: 26px;
+    font-weight: bolder;
+    padding: 16px 20px 30px 20px;
+    transition: 0.3s ease-out;
+    backdrop-filter: blur(8px) brightness(1.2);
+    -webkit-backdrop-filter: blur(8px) brightness(1.2);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+    @media (min-width: 640px) {
+        padding: 16px 50px 30px 50px;
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 26px;
+    text-align: justify;
+    max-width: 850px;
+    background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer {
+    font-size: 48px;
+    justify-content: center;
+}
+
+footer a {
+    color: var(--light);
+    opacity: .5;
+    margin: 10px 20px;
+    transition: all .3s ease-in-out;
+}
+
+footer a:hover {
+    opacity: 1;
+}
+
+.contact-icons {
+    padding-right: calc(1rem * 0.5);
+    padding-left: calc(1rem);
+}
