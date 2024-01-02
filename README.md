@@ -1,39 +1,13 @@
-# Project Title [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# My React Portfolio
 
 ## Description
-Description
+Welcome to my portfolio! This clean and responsive site showcases my work and provides an easy-to-navigate experience. Explore sections such as About Me, Portfolio, Contact, and Resume effortlessly. Discover my recent projects, download my resume, and connect with me on GitHub, LinkedIn, and Stack Overflow. Experience a seamless journey through my portfolio with dynamic content loading.
 
 ## Deployed Application URL / Walkthrough Video
-[alt-text](https://mariamdawood-portfolio.netlify.app)
+[My React Portfolio](https://mariamdawood-portfolio.netlify.app)
 
 ## Screenshot
-![](Screenshot path)
-
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Test](#test)
-- [Contributor Guidelines](#contributor-guidelines)
-- [Credits](@credits)
-- [License](#license)
-- [Questions](#questions)
-
-## Installation
-Installation
-
-## Usage
-Usage
-
-## Contributor Guidelines
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
-
-## Credits
-Credits
-
-## License
-
-This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+![overview](./src/assets/images/my-portfolio.png)
 
 ## Questions
 

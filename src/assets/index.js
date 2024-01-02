@@ -1,18 +1,18 @@
 // /src/assets/index.js
-import melodyMapper from './images/melodymapper.png';
-import culturedCuisine from './images/cultured-cuisine.png';
-import toBeFrank from './images/to-be-frank.jpeg';
-import codeQuiz from './images/code-quiz.png';
-import weatherDashboard from './images/weather-dashboard.png';
-import techBlog from './images/tech-blog.png';
+import MelodyMapper from './images/melodymapper.png';
+import CulturedCuisine from './images/cultured-cuisine.png';
+import ToBeFrank from './images/to-be-frank.jpeg';
+import CodeQuiz from './images/code-quiz.png';
+import WeatherDashboard from './images/weather-dashboard.png';
+import TechBlog from './images/tech-blog.png';
 
 const projects = {
-    melodyMapper,
-    culturedCuisine,
-    toBeFrank,
-    codeQuiz,
-    weatherDashboard,
-    techBlog,
+        'MelodyMapper': MelodyMapper,
+        'Cultured Cuisine': CulturedCuisine,
+        'To Be Frank': ToBeFrank,
+        'Code Quiz': CodeQuiz,
+        'Weather Dashboard': WeatherDashboard,
+        'Tech Blog': TechBlog,
 };
 
 export default projects;

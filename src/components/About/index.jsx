@@ -8,14 +8,10 @@ const About = () => {
             <img src={profileImage} alt="Profile" className="profile-img" />
             <div>
                 <p>
-                    Hello! I'm [Your Name], a passionate and creative web developer based in [Your Location].
-                    I have a strong background in [mention relevant skills or technologies] and a love for building
-                    responsive and user-friendly web applications.
-                    My journey in web development started [mention how you got started] and since then, I've been
-                    on a continuous learning path to stay updated with the latest technologies. I enjoy turning
-                    ideas into reality and crafting meaningful digital experiences.
-                    When I'm not coding, you can find me [mention hobbies or interests outside of coding].
-                    Let's connect and create something amazing together!
+                    Hello! I'm Mariam Dawood full-stack web developer situated in Nashville, TN.
+                    My passion lies in crafting responsive and user-friendly web applications.
+                    Having successfully completed a Full Stack Web Development Bootcamp at Vanderbilt University,
+                    As I look forward to commencing my university studies in 2024, my commitment to continuous learning remains unwavering.
                 </p>
             </div>
         </div>
