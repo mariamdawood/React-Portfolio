@@ -1,11 +1,10 @@
 // /src/components/PageContent/index.jsx
 import React from 'react';
 
-const PageContent = () => {
-    // Your component logic here
+const PageContent = (props) => {
     return (
         <div>
-            {/* PageContent content */}
+            {props.children}
         </div>
     );
 };

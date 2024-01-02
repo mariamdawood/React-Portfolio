@@ -11,7 +11,7 @@ const Header = () => {
                     <li><Link to="/about">About Me</Link></li>
                     <li><Link to="/portfolio">Portfolio</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/resume">Resume</Link></li>
+                    <li><a href="https://drive.google.com/u/0/uc?id=11EMWOMA5d7TBiZpVuEQOgtuaaTsARNkC&export=download" download>Resume</a></li>
                 </ul>
             </nav>
         </header>

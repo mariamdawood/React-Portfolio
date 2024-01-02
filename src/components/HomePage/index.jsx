@@ -1,9 +1,10 @@
 // /src/components/HomePage/index.jsx
 import React, { useEffect } from 'react';
-import { Routes, Route, useNavigate } from 'react-router-dom';
-import About from '../About';
+import { capitalizeFirstLetter } from '../../utils/helpers';
+import { Outlet, useNavigate } from 'react-router-dom';
+import PageContent from '../PageContent';
 
-const HomePage = () => {
+function Page({ currentPage }) {
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -11,12 +12,12 @@ const HomePage = () => {
     }, [navigate]);
 
     return (
-        <div>
-            <Routes>
-                <Route path="/about" element={<About />} />
-            </Routes>
-        </div>
+        <section>
+            <PageContent>
+                <Outlet />
+            </PageContent>
+        </section>
     );
-};
+}
 
-export default HomePage;
+export default Page;

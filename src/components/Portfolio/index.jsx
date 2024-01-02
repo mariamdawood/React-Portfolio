@@ -1,23 +1,59 @@
 // /src/components/Portfolio/index.jsx
 import React from 'react';
+import { useState } from 'react';
+import Project from "../Project";
 
-const Portfolio = () => {
-    return (
-        <div>
-            <h2>Portfolio</h2>
-            {/* Titled images of six applications with links */}
-            <div>
-                <img src="/path/to/app1.jpg" alt="App 1" />
-                <h3>App 1</h3>
-                <p>
-                    Links:
-                    <a href="https://deployed-app-1.com">Deployed App</a> |{' '}
-                    <a href="https://github.com/username/app-1">GitHub Repository</a>
-                </p>
-            </div>
-            {/* Repeat similar structure for other applications */}
-        </div>
-    );
-};
+function Portfolio() {
+
+  // Replace links with deployed projects and GitHub repos
+  const [projects] = useState([
+    {
+      name: 'melodyMapper',
+      description: 'JavaScript',
+      link: "https://pgold762.github.io/MelodyMapper",
+      repo: "https://github.com/PGold762/MelodyMapper"
+    },
+    {
+      name: 'culturedCuisine',
+      description: 'Handlebars/CSS',
+      link: "https://culturedcuisine-59da43e6096e.herokuapp.com/",
+      repo: "https://github.com/PGold762/CulturedCuisine"
+    },
+    {
+      name: 'toBeFrank',
+      description: 'React/CSS',
+      link: "https://to-be-frank-9e501319d50a.herokuapp.com/",
+      repo: "https://github.com/mstrnes2/to-be-frank"
+    },
+    {
+      name: 'codeQuiz',
+      description: 'HTML/CSS/JavaScript',
+      link: "https://mariamdawood.github.io/Code-Quiz/",
+      repo: "https://github.com/mariamdawood/Code-Quiz"
+    },
+    {
+      name: 'weatherDashboard',
+      description: 'jQuery',
+      link: "https://mariamdawood.github.io/Weather-Dashboard/",
+      repo: "https://github.com/mariamdawood/Weather-Dashboard"
+    },
+    {
+      name: 'techBlog',
+      description: 'Handlebars/MySQL/Sequelize/Express.js',
+      link: "https://tech-blog-by-mariam-ac876a5d1ff9.herokuapp.com/",
+      repo: "https://github.com/mariamdawood/Tech-Blog"
+    },
+  ]);
+
+  return (
+    <div>
+      <div className="flex-row">
+        {projects.map((project, idx) => (
+          <Project project={project} key={`project${idx}`} />
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export default Portfolio;
