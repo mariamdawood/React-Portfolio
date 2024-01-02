@@ -17,7 +17,7 @@ body {
 }
 
 body {
-    background: url('./src/assets/images/iStock-1392553233.jpg') no-repeat center center fixed !important;
+    background: url('./src/assets/images/iStock-1392553233.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,7 +34,6 @@ body {
     font-size: 18px;
     letter-spacing: 0.1em;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 nav a {
